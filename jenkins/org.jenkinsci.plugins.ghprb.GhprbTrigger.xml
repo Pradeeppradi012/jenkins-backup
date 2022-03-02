@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ghprb.GhprbTrigger_-DescriptorImpl plugin="ghprb@1.42.2">
+  <configVersion>1</configVersion>
+  <whitelistPhrase>.*add\W+to\W+whitelist.*</whitelistPhrase>
+  <okToTestPhrase>.*ok\W+to\W+test.*</okToTestPhrase>
+  <retestPhrase>.*test\W+this\W+please.*</retestPhrase>
+  <skipBuildPhrase>.*\[skip\W+ci\].*</skipBuildPhrase>
+  <blackListCommitAuthor></blackListCommitAuthor>
+  <cron>H/5 * * * *</cron>
+  <useComments>false</useComments>
+  <useDetailedComments>false</useDetailedComments>
+  <manageWebhooks>true</manageWebhooks>
+  <unstableAs>FAILURE</unstableAs>
+  <autoCloseFailedPullRequests>false</autoCloseFailedPullRequests>
+  <displayBuildErrorsOnDownstreamBuilds>false</displayBuildErrorsOnDownstreamBuilds>
+  <blackListLabels></blackListLabels>
+  <whiteListLabels></whiteListLabels>
+  <githubAuth>
+    <org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
+      <serverAPIUrl>https://api.github.com</serverAPIUrl>
+      <credentialsId>62f6fdbf-aa6f-4657-b495-205f37c28bee</credentialsId>
+      <id>32bc4514-2f25-4f44-b862-5be8ceea5a81</id>
+      <description>Anonymous connection</description>
+      <secret>{AQAAABAAAAAQnojq7COE7+Zx1BhZ1IqUtNOCV96qN5NqVaBanxwAFfc=}</secret>
+    </org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
+    <org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
+      <serverAPIUrl>https://api.github.com</serverAPIUrl>
+      <credentialsId>62f6fdbf-aa6f-4657-b495-205f37c28bee</credentialsId>
+      <id>83b8524a-ad28-4f67-9b9f-17da9abd70e6</id>
+      <description></description>
+      <secret>{AQAAABAAAAAQ8H45DL1JS+EoGbekRT8KvFMZskz8cbXBjTuVEMMy9wY=}</secret>
+    </org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
+  </githubAuth>
+  <adminlist></adminlist>
+  <requestForTestingPhrase>Can one of the admins verify this patch?</requestForTestingPhrase>
+  <extensions>
+    <org.jenkinsci.plugins.ghprb.extensions.status.GhprbSimpleStatus>
+      <commitStatusContext></commitStatusContext>
+      <triggeredStatus></triggeredStatus>
+      <startedStatus></startedStatus>
+      <statusUrl></statusUrl>
+      <addTestResults>false</addTestResults>
+    </org.jenkinsci.plugins.ghprb.extensions.status.GhprbSimpleStatus>
+  </extensions>
+</org.jenkinsci.plugins.ghprb.GhprbTrigger_-DescriptorImpl>

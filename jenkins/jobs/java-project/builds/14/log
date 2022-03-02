@@ -1,0 +1,99 @@
+Started by user [8mha:////4FE05qEEL1Azfd/X/kROR1daXNShbYSlxnYtS70osKN9AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9gqLElNTUAgD3sYsXwgAAAA==[0mpradeep
+Running as SYSTEM
+Building remotely on [8mha:////4HbyQ/pBdE8gNF98w4q0LDSsjOFQ4Cj40eQzXD0mQE8GAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 in workspace /home/ubuntu/workspace/java-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/java-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Pradeeppradi012/java-project.git # timeout=10
+Fetching upstream changes from https://github.com/Pradeeppradi012/java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Pradeeppradi012/java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 157ee76ce127d16ae7e5b4d811b08f3df9871a37 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+Commit message: "Merge branch 'master' of github.com:efsavage/hello-world-war"
+ > git rev-list --no-walk 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+[java-project] $ mvn clean deploy
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.efsavage:hello-world-war[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Hello World Web Application Repository 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 2.7/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 7.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Progress (1): 2.7/13 kBProgress (1): 5.5/13 kBProgress (1): 8.2/13 kBProgress (1): 11/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.7/25 kBProgress (1): 5.5/25 kBProgress (1): 8.2/25 kBProgress (1): 11/25 kB Progress (1): 14/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 21/25 kBProgress (1): 24/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 204 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+Progress (1): 2.7/5.6 kBProgress (1): 5.5/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (5.6 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+Progress (1): 4.1/27 kBProgress (1): 8.2/27 kBProgress (1): 12/27 kB Progress (1): 16/27 kBProgress (1): 20/27 kBProgress (1): 24/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 kB at 353 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mhello-world-war[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+Progress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+Progress (1): 4.1/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 131 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+Progress (1): 4.1/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 182 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Progress (1): 4.1/226 kBProgress (1): 8.2/226 kBProgress (1): 12/226 kB Progress (1): 16/226 kBProgress (1): 20/226 kBProgress (1): 24/226 kBProgress (1): 28/226 kBProgress (1): 32/226 kBProgress (1): 36/226 kBProgress (1): 40/226 kBProgress (1): 45/226 kBProgress (1): 49/226 kBProgress (1): 53/226 kBProgress (1): 57/226 kBProgress (1): 61/226 kBProgress (1): 65/226 kBProgress (1): 69/226 kBProgress (1): 73/226 kBProgress (1): 77/226 kBProgress (1): 81/226 kBProgress (1): 86/226 kBProgress (1): 90/226 kBProgress (1): 94/226 kBProgress (1): 98/226 kBProgress (1): 102/226 kBProgress (1): 106/226 kBProgress (1): 110/226 kBProgress (1): 114/226 kBProgress (1): 118/226 kBProgress (1): 122/226 kBProgress (1): 126/226 kBProgress (1): 131/226 kBProgress (1): 135/226 kBProgress (1): 139/226 kBProgress (1): 143/226 kBProgress (1): 147/226 kBProgress (1): 151/226 kBProgress (1): 155/226 kBProgress (1): 159/226 kBProgress (1): 163/226 kBProgress (1): 167/226 kBProgress (1): 172/226 kBProgress (1): 176/226 kBProgress (1): 180/226 kBProgress (1): 184/226 kBProgress (1): 188/226 kBProgress (1): 192/226 kBProgress (1): 196/226 kBProgress (1): 200/226 kBProgress (1): 204/226 kBProgress (1): 208/226 kBProgress (1): 212/226 kBProgress (1): 217/226 kBProgress (1): 221/226 kBProgress (1): 225/226 kBProgress (1): 226 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 736 kB/s)
+[[1;34mINFO[m] Deleting /home/ubuntu/workspace/java-project/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/workspace/java-project/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/workspace/java-project/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.1.1:war[m [1m(default-war)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [hello-world-war] in [/home/ubuntu/workspace/java-project/target/hello-world-war-1.0.0]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/ubuntu/workspace/java-project/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [66 msecs]
+[[1;34mINFO[m] Building war: /home/ubuntu/workspace/java-project/target/hello-world-war-1.0.0.war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] Installing /home/ubuntu/workspace/java-project/target/hello-world-war-1.0.0.war to /home/ubuntu/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[[1;34mINFO[m] Installing /home/ubuntu/workspace/java-project/pom.xml to /home/ubuntu/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m @ [36mhello-world-war[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+Progress (1): 4.1/251 kBProgress (1): 8.2/251 kBProgress (1): 12/251 kB Progress (1): 16/251 kBProgress (1): 20/251 kBProgress (1): 24/251 kBProgress (1): 28/251 kBProgress (1): 32/251 kBProgress (1): 36/251 kBProgress (1): 40/251 kBProgress (1): 45/251 kBProgress (1): 49/251 kBProgress (1): 53/251 kBProgress (1): 57/251 kBProgress (1): 61/251 kBProgress (1): 65/251 kBProgress (1): 69/251 kBProgress (1): 73/251 kBProgress (1): 77/251 kBProgress (1): 81/251 kBProgress (1): 86/251 kBProgress (1): 90/251 kBProgress (1): 94/251 kBProgress (1): 98/251 kBProgress (1): 102/251 kBProgress (1): 106/251 kBProgress (1): 110/251 kBProgress (1): 114/251 kBProgress (1): 118/251 kBProgress (1): 122/251 kBProgress (1): 126/251 kBProgress (1): 131/251 kBProgress (1): 135/251 kBProgress (1): 139/251 kBProgress (1): 143/251 kBProgress (1): 147/251 kBProgress (1): 151/251 kBProgress (1): 155/251 kBProgress (1): 159/251 kBProgress (1): 163/251 kBProgress (1): 167/251 kBProgress (1): 172/251 kBProgress (1): 176/251 kBProgress (1): 180/251 kBProgress (1): 184/251 kBProgress (1): 188/251 kBProgress (1): 192/251 kBProgress (1): 196/251 kBProgress (1): 200/251 kBProgress (1): 204/251 kBProgress (1): 208/251 kBProgress (1): 212/251 kBProgress (1): 217/251 kBProgress (1): 221/251 kBProgress (1): 225/251 kBProgress (1): 229/251 kBProgress (1): 233/251 kBProgress (1): 237/251 kBProgress (1): 241/251 kBProgress (1): 245/251 kBProgress (1): 249/251 kBProgress (1): 251 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 675 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.917 s
+[[1;34mINFO[m] Finished at: 2022-02-27T12:28:13Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m on project [36mhello-world-war[m: [1;31mDeployment failed: repository element was not specified in the POM inside distributionManagement element or in -DaltDeploymentRepository=id::layout::url parameter[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

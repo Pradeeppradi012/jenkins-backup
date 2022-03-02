@@ -1,0 +1,63 @@
+commit 424840a084043756eaba71011c31de7ff718ec7a
+tree 5d8056fce91ef96551cc8c778f8df9a9edfd6d01
+parent 8f77dcb676970e581a94ca98162c6e2dfe971320
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 17:06:41 +0530
+committer GitHub <noreply@github.com> 2022-02-28 17:06:41 +0530
+
+    Create big2.c
+
+:000000 100644 0000000000000000000000000000000000000000 30bec310b935c98b189556167c80080fd41fdf6d A	big2.c
+commit 8f77dcb676970e581a94ca98162c6e2dfe971320
+tree e5f470ffad168b54bfa567e1695c30cd6f2a620c
+parent 3b2fa6d7cc1578b3aaff6db6ca7da59ad3e0bb84
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 16:47:59 +0530
+committer GitHub <noreply@github.com> 2022-02-28 16:47:59 +0530
+
+    Delete big2.c
+
+:100644 000000 30bec310b935c98b189556167c80080fd41fdf6d 0000000000000000000000000000000000000000 D	big2.c
+commit 3b2fa6d7cc1578b3aaff6db6ca7da59ad3e0bb84
+tree 5d8056fce91ef96551cc8c778f8df9a9edfd6d01
+parent 13f4d4a44af356ef2f74a0c23020dd45b4a70d15
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 16:46:47 +0530
+committer GitHub <noreply@github.com> 2022-02-28 16:46:47 +0530
+
+    Update big2.c
+
+:100644 100644 c2bb793b8db43383e3ddbab450dbe593ba358a33 30bec310b935c98b189556167c80080fd41fdf6d M	big2.c
+commit 13f4d4a44af356ef2f74a0c23020dd45b4a70d15
+tree 176219e165f21369e31b55fbbc7bbd22d40a43dd
+parent acff47f4671e3fdd591025bab5ef720650eeee0c
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 14:16:12 +0530
+committer GitHub <noreply@github.com> 2022-02-28 14:16:12 +0530
+
+    Update sum2.c
+
+:100644 100644 e74afae523ea1368d83635b06c409b085ea2f52c 9d33f2699a8d6b02f543a5cafbe663f3e79bc816 M	sum2.c
+commit acff47f4671e3fdd591025bab5ef720650eeee0c
+tree 23664182312ab870b48ea63561c0f67c706fcc2f
+parent f0237da8df39d6a94d3f856b79e55fc17ff2cbc7
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 14:14:15 +0530
+committer GitHub <noreply@github.com> 2022-02-28 14:14:15 +0530
+
+    Update fact.c
+
+:100644 100644 f4a44e5d9d6528fc1ca2c4b23632584b24bc6fd3 784a42910e5418e16d9cdf7426e612444b8b2bb7 M	fact.c
+commit f0237da8df39d6a94d3f856b79e55fc17ff2cbc7
+tree 619ccf703436d06629dc172a812227d36065fc2a
+parent e02a8b97f53b4fccf78ffc97e075710520ae70e9
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 11:55:00 +0530
+committer GitHub <noreply@github.com> 2022-02-28 11:55:00 +0530
+
+    Update rev.c
+
+:100644 100644 c14a19f730e3e953e160fecbfbb99fbd7b47354a 9e71fe80ceaa1de4ee7f92f4a1348bcd435737bb M	rev.c
+commit e02a8b97f53b4fccf78ffc97e075710520ae70e9
+tree 7fbaea9f9f0660c100597ebb9e72ded6dd05da42
+parent 2c7a75dda8fd0c581066721c46b2fbf9d2a41a21
+author Pradeeppradi012 <100108098+Pradeeppradi012@users.noreply.github.com> 2022-02-28 09:24:45 +0530
+committer GitHub <noreply@github.com> 2022-02-28 09:24:45 +0530
+
+    Update pal.c
+
+:100644 100644 99cce4bbeb0334da3c2c70fcb42a9cc51e918b90 70254b59f20798c52f8e88395b05c0e37e9351c8 M	pal.c

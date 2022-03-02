@@ -1,0 +1,23 @@
+Started by user [8mha:////4FE05qEEL1Azfd/X/kROR1daXNShbYSlxnYtS70osKN9AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9gqLElNTUAgD3sYsXwgAAAA==[0mpradeep
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Pradeeppradi012/c-project.git
+ > git init /var/lib/jenkins/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/Pradeeppradi012/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Pradeeppradi012/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Pradeeppradi012/c-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2c7a75dda8fd0c581066721c46b2fbf9d2a41a21 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2c7a75dda8fd0c581066721c46b2fbf9d2a41a21 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 2c7a75dda8fd0c581066721c46b2fbf9d2a41a21 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins2375963678669945570.sh
+Finished: SUCCESS
